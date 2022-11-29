@@ -17,7 +17,7 @@ let addArticle = () => {
 }
 
 document.body.addEventListener("click", (event) => {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i < 5; i++) {
       addArticle();
     }
     event.preventDefault();
